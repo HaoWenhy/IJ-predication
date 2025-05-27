@@ -3,7 +3,7 @@
 
 ```bash
 # clone file
-git cole xxxxxx
+git clone https://github.com/HaoWenhy/IJ-predication.git
 
 cd IJ-predication/script
 chmod 755 *
