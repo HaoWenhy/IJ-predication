@@ -9,7 +9,7 @@ cd IJ-predication/script
 chmod 755 *
 
 #Adding Environment Variables
-echo "export PATH="/you/path/IJ-predication:$PATH" " >> ~/.bashrc
+echo "export PATH=\"/you/path/IJ-predication/script:\$PATH\" " >> ~/.bashrc
 
 source  ~/.bashrc
 ```
