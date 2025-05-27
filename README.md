@@ -24,9 +24,8 @@ mamba install r-base=4.3.1
 3.R package dependency installation
 
 ```R
-#安装 Bioconductor 包 vcfR
-if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
+#安装 Bioconductor包vcfR
+install.packages("BiocManager",repos = "https://mirrors.tuna.tsinghua.edu.cn/CRAN/")
 BiocManager::install("vcfR")
 install.packages("randomForest", repos = "https://mirrors.tuna.tsinghua.edu.cn/CRAN/")
 install.packages("caret", repos = "https://mirrors.tuna.tsinghua.edu.cn/CRAN/")
