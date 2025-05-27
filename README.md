@@ -14,13 +14,13 @@ echo "export PATH="/you/path/IJ-predication:$PATH" " >> ~/.bashrc
 source  ~/.bashrc
 ```
 
-2.软件依赖安装
+2.Software Dependency Installation
 
 ```bash
 mamba install bcftools
 ```
 
-3.R包依赖安装
+3.R package dependency installation
 
 ```R
 #安装 Bioconductor 包 vcfR
@@ -32,7 +32,7 @@ install.packages("caret", repos = "https://mirrors.tuna.tsinghua.edu.cn/CRAN/")
 install.packages("optparse", repos = "https://mirrors.tuna.tsinghua.edu.cn/CRAN/")
 ```
 
-4.软件使用
+4.Software Usage
 
 ```bash
  file.preparation.sh  input.vcf input.vcf.gz sample.txt  final.vcf
