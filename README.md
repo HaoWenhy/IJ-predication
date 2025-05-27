@@ -8,6 +8,9 @@ git clone https://github.com/HaoWenhy/IJ-predication.git
 cd IJ-predication/script
 chmod 755 *
 
+# Get the current absolute path
+pwd 
+
 #Adding Environment Variables
 #The path obtained by pwd replaces /you/path/IJ-predication/script.
 echo "export PATH=\"/you/path/IJ-predication/script:\$PATH\" " >> ~/.bashrc
