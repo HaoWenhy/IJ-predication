@@ -19,6 +19,7 @@ source  ~/.bashrc
 ```bash
 mamba install bcftools
 mamba install r-base=4.3.1
+mamba install conda-forge::py-bgzip
 ```
 
 3.R package dependency installation
