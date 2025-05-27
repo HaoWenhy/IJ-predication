@@ -35,7 +35,9 @@ install.packages("optparse", repos = "https://mirrors.tuna.tsinghua.edu.cn/CRAN/
 4.Software Usage
 
 ```bash
- file.preparation.sh  input.vcf input.vcf.gz sample.txt  final.vcf
- Indica-Japonica.prediction.R final.vcf
+cd IJ-predication/test
+
+file.preparation.sh test.vcf test.vcf.gz test.sample final.vcf
+Indica-Japonica.prediction.R final.vcf
 ```
 
