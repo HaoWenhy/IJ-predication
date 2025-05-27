@@ -3,7 +3,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 usage() {
-  echo "用法: $0 <input.vcf> <output.vcf.gz> <sample_list.txt> [sigSite.txt] <final_output.vcf>"
+  echo "Usage: $0 <input.vcf> <output.vcf.gz> <sample_list.txt> [sigSite.txt] <final_output.vcf>"
   echo "  <input.vcf>         : Input uncompressed VCF file"
   echo "  <output.vcf.gz>     : Outputting compressed VCF files"
   echo "  <sample_list.txt>   : File containing sample names, one sample per line"
