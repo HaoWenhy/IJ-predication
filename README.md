@@ -10,6 +10,8 @@ chmod 755 *
 
 #Adding Environment Variables
 echo "export PATH="/you/path/IJ-predication:$PATH" " >> ~/.bashrc
+
+source  ~/.bashrc
 ```
 
 2.软件依赖安装
