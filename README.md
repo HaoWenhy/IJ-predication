@@ -39,6 +39,6 @@ install.packages("optparse", repos = "https://mirrors.tuna.tsinghua.edu.cn/CRAN/
 cd IJ-predication/test
 
 file.preparation.sh test.vcf test.vcf.gz test.sample final.vcf
-Indica-Japonica.prediction.R -v final.vcf
+Indica-Japonica.prediction.R -v final.vcf -o unknown_samples_predictions.csv
 ```
 
