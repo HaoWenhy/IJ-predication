@@ -122,6 +122,6 @@ print(prediction_results)
 
 # Write the results
 output_file <- opt$output
-write.csv(prediction_results, file = output_file, row.names = FALSE, quote = FALSE))
+write.csv(prediction_results, file = output_file, row.names = FALSE, quote = FALSE)
 
 cat("Predictions have been saved to：", output_file, "\n")
